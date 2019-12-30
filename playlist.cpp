@@ -204,10 +204,10 @@ class list
           a++;
         }
         insert(it, *p);
-        auto q = p;
-        erase(q);
+        p = erase(p);
+        a++;
       }     
-
+      
     }
 
 };
